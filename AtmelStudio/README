@@ -1,0 +1,44 @@
+Antz is the firmware for the Ants analog semi-modular synthesizer from Plankton
+Electronics (http://www.planktonelectronics.com/)
+
+Currently Antz implements the MIDI to CV feature. You can connect any MIDI
+keyboard, sequencer or computer and it transforms the digital signal to analog
+voltages for controlling the synth.
+
+The code is designed to run in a Atmel AVR atmega328p, but easily should run in
+any other AVR device with few modifications.
+
+Compilation and upload
+======================
+$ ./configure --host=avr
+prepares code to be compiled on your system.
+
+$ make
+compiles everything.
+
+$ make upload
+uploads program to an AVR MCU using 'avrdude'.
+
+$ ./configure --help
+lists available compile time options.
+
+
+Compilation in Atmel Studio 7 on Windows
+======================
+1. Create a new "GCC C++ Executable Project" and select "ATmega328P" as Device
+
+2. Add following files from the "src" folder to to the project
+    - all *.cpp, *.hpp and *.h files
+    - the entire /ustl folder
+    - config.h.in -> rename to "config.h"
+
+3. Open the projects' properties (Alt+F7) and go to "Toolchain"
+
+4. "AVR/GNU C Compiler -> Miscellaneous"
+   "AVR/GNU C++ Compiler -> Miscellaneous"
+   add following flag including the leading dash and overwrite existing flags
+    -std=c++11
+	
+5. "AVR/GNU Linker -> Libraries"
+   - add "libustl.a" in "Libraries"
+   - add "../ustl" "Library search path"
