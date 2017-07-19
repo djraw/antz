@@ -462,7 +462,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x11ac
+.text           0x00000000     0x11ae
  *(.vectors)
  .vectors       0x00000000       0x68 Z:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -604,91 +604,91 @@ END GROUP
                 0x00000828       0x4c driver.o
                 0x00000828                _ZN4ustl6vectorIhE6resizeEjb
  .text._ZN11MIDI_status5resetEv
-                0x00000874       0x26 driver.o
+                0x00000874       0x28 driver.o
                 0x00000874                _ZN11MIDI_status5resetEv
  .text._ZN22MIDI_CMM_all_notes_offI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
-                0x0000089a       0x1c driver.o
-                0x0000089a                _ZN22MIDI_CMM_all_notes_offI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
+                0x0000089c       0x1c driver.o
+                0x0000089c                _ZN22MIDI_CMM_all_notes_offI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
  .text.startup.main
-                0x000008b6      0x14c driver.o
-                0x000008b6                main
+                0x000008b8      0x14c driver.o
+                0x000008b8                main
  .text._ZN8MIDI_CVMI15Antz_interfacesI13AVR_Antz_viewEE7releaseEPKh
-                0x00000a02      0x136 driver.o
-                0x00000a02                _ZN8MIDI_CVMI15Antz_interfacesI13AVR_Antz_viewEE7releaseEPKh
+                0x00000a04      0x136 driver.o
+                0x00000a04                _ZN8MIDI_CVMI15Antz_interfacesI13AVR_Antz_viewEE7releaseEPKh
  .text._ZN16MIDI_CVM_releaseI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
-                0x00000b38        0x4 driver.o
-                0x00000b38                _ZN16MIDI_CVM_releaseI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
+                0x00000b3a        0x4 driver.o
+                0x00000b3a                _ZN16MIDI_CVM_releaseI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
  .text._ZN4ustl6vectorIhE12emplace_backIJhEEEvDpOT_
-                0x00000b3c       0x3a driver.o
-                0x00000b3c                _ZN4ustl6vectorIhE12emplace_backIIhEEEvDpOT_
-                0x00000b3c                _ZN4ustl6vectorIhE12emplace_backIJhEEEvDpOT_
+                0x00000b3e       0x3a driver.o
+                0x00000b3e                _ZN4ustl6vectorIhE12emplace_backIIhEEEvDpOT_
+                0x00000b3e                _ZN4ustl6vectorIhE12emplace_backIJhEEEvDpOT_
  .text._ZN16MIDI_CVM_depressI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
-                0x00000b76       0x72 driver.o
-                0x00000b76                _ZN16MIDI_CVM_depressI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
+                0x00000b78       0x72 driver.o
+                0x00000b78                _ZN16MIDI_CVM_depressI15Antz_interfacesI13AVR_Antz_viewEE7processEPKh
  .text.startup._GLOBAL__sub_I__ZN8MIDI_msgI15Antz_interfacesI13AVR_Antz_viewEE7_statusE
-                0x00000be8       0x1e driver.o
+                0x00000bea       0x1e driver.o
  .text.exit._GLOBAL__sub_D__ZN8MIDI_msgI15Antz_interfacesI13AVR_Antz_viewEE7_statusE
-                0x00000c06        0x8 driver.o
- .text._ZdlPv   0x00000c0e        0x4 utils.o
-                0x00000c0e                _ZdlPv
+                0x00000c08        0x8 driver.o
+ .text._ZdlPv   0x00000c10        0x4 utils.o
+                0x00000c10                _ZdlPv
  .text.libgcc.div
-                0x00000c12       0x2e z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
-                0x00000c12                __divmodsi4
+                0x00000c14       0x2e z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000c14                __divmodsi4
  .text.libgcc.div
-                0x00000c40       0x10 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
-                0x00000c40                __negsi2
+                0x00000c42       0x10 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x00000c42                __negsi2
  .text.libgcc.builtins
-                0x00000c50       0x24 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clzhi2.o)
-                0x00000c50                __clzhi2
+                0x00000c52       0x24 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clzhi2.o)
+                0x00000c52                __clzhi2
  .text.libgcc.mul
-                0x00000c74       0x16 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
-                0x00000c74                __muluhisi3
+                0x00000c76       0x16 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00000c76                __muluhisi3
  .text.libgcc.div
-                0x00000c8a       0x44 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000c8a                __udivmodsi4
- .text.libgcc   0x00000cce        0xc z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x00000cce                __tablejump2__
+                0x00000c8c       0x44 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000c8c                __udivmodsi4
+ .text.libgcc   0x00000cd0        0xc z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00000cd0                __tablejump2__
  .text.libgcc.mul
-                0x00000cda       0x1e z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00000cda                __umulhisi3
+                0x00000cdc       0x1e z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000cdc                __umulhisi3
  .text.avr-libc
-                0x00000cf8      0x242 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00000cf8                malloc
-                0x00000e28                free
+                0x00000cfa      0x242 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00000cfa                malloc
+                0x00000e2a                free
  .text.avr-libc
-                0x00000f3a      0x18c z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
-                0x00000f3a                realloc
+                0x00000f3c      0x18c z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x00000f3c                realloc
  .text.avr-libc
-                0x000010c6       0x1a z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
-                0x000010c6                memcmp
+                0x000010c8       0x1a z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                0x000010c8                memcmp
  .text.avr-libc
-                0x000010e0       0x12 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x000010e0                memcpy
+                0x000010e2       0x12 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x000010e2                memcpy
  .text.avr-libc
-                0x000010f2       0x24 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
-                0x000010f2                memmove
+                0x000010f4       0x24 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+                0x000010f4                memmove
  .text.avr-libc
-                0x00001116        0xe z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
-                0x00001116                memset
+                0x00001118        0xe z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00001118                memset
  .text.libgcc.prologue
-                0x00001124       0x38 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
-                0x00001124                __prologue_saves__
+                0x00001126       0x38 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00001126                __prologue_saves__
  .text.libgcc.prologue
-                0x0000115c       0x36 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
-                0x0000115c                __epilogue_restores__
-                0x00001192                . = ALIGN (0x2)
+                0x0000115e       0x36 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x0000115e                __epilogue_restores__
+                0x00001194                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001192        0x0 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00001192                _exit
-                0x00001192                exit
+ .fini9         0x00001194        0x0 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00001194                _exit
+                0x00001194                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00001192       0x16 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
-                0x00001192                __do_global_dtors
+ .fini6         0x00001194       0x16 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
+                0x00001194                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -701,11 +701,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000011a8        0x4 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000011aa        0x4 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000011ac                _etext = .
+                0x000011ae                _etext = .
 
-.data           0x00800100       0x3e load address 0x000011ac
+.data           0x00800100       0x3e load address 0x000011ae
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 z:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
@@ -767,8 +767,8 @@ END GROUP
                 0x00800150                __brkval
                 0x00800152                __flp
                 0x00800154                PROVIDE (__bss_end, .)
-                0x000011ac                __data_load_start = LOADADDR (.data)
-                0x000011ea                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000011ae                __data_load_start = LOADADDR (.data)
+                0x000011ec                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800154        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
