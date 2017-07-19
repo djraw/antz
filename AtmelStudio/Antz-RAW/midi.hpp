@@ -109,8 +109,8 @@ class MIDI_CVM: public MIDI_msg<Antz_ifaces>  // Channel Voice Message
 			     : note;
 			// transform pitch data to a signed int centered in 0 with +/- (1<<13 -1)
 			const int16_t pitch = (((uint16_t)data_bytes[1] << 7) + data_bytes[0]) - 0x1fff - 1;
-			// Compute voltage using fixed point and apply a pitch bend equivalent to 2 semitones
-			int32_t voltage  = ((((note - MIDI_NOTE_MIN) << 13) + 2*pitch) * MIDI_VOLTAGE_MAX);
+			// Compute voltage using fixed point and apply a pitch bend equivalent to 4 semitones
+			int32_t voltage  = ((((note - MIDI_NOTE_MIN) << 13) + 4*pitch) * MIDI_VOLTAGE_MAX);
 			        voltage /= (int32_t)MIDI_NOTE_TOTAL<<13; // CAUTION: division between signed and unsigned produces garbage!
 			// Protect voltage from out of bounds values
 			return voltage > (int32_t)MIDI_VOLTAGE_MAX ? MIDI_VOLTAGE_MAX
