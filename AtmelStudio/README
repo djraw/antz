@@ -27,7 +27,7 @@ Compilation in Atmel Studio 7 on Windows
 ======================
 1. Create a new "GCC C++ Executable Project" and select "ATmega328P" as Device
 
-2. Add following files from the "src" folder to to the project
+2. Add following files from the "src" folder to the project
     - all *.cpp, *.hpp and *.h files
     - the entire /ustl folder
     - config.h.in -> rename to "config.h"
